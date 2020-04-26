@@ -1,0 +1,937 @@
+body {
+margin: 0 40px 0;
+}
+.header {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-image: url("akaibi-ru.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+
+
+}
+.main {
+  height: 100px;
+  background-color: blue;
+
+}
+.footer {
+  height: 100px;
+  background-color: pink;
+}
+.header {
+  color: black;
+
+}
+.text1 {
+  font-size: 40px;
+  position: absolute;
+  left: 300px;
+  top: 260px;
+
+
+}
+.text2 {
+  font-size: 20px;
+  position: absolute;
+  top: 330px;
+  left: 590px;
+}
+ .text1,.text2 p {
+text-shadow: 3px 3px 3px gold;
+ }
+.header-container {
+  display: flex;
+  font-family: 'Noto Serif JP', serif;
+  background-color: #CC0000;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  position: relative;
+  border: 1px solid black;
+
+
+}
+.header-contents ul {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+.header-contents li {
+  margin-left: 100px;
+}
+.header-left  {
+font-size: 30px;
+margin-left: 60px;
+margin-right: 100px;
+
+
+
+}
+.list-top1,.list-top2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+ }
+.list-top1,.list-top2:before, .list-top1,.list-top2:after {
+  border-top: 1px solid;
+  content: "";
+  width:2em;
+}
+.list-top1,.list-top2:before {
+  margin-right: 1em;
+}
+.list-top1,.list-top2:after {
+  margin-left: 1em;
+}
+.list-top1{
+  position: absolute;
+  bottom: 50px;
+  left: 410px;
+}
+.list-top2 {
+  position: absolute;
+  bottom: 55px;
+  left: 590px;
+}
+.main-contents {
+  height: 400px;
+  background-color: #CC0000;
+  /*background-image: url("red.jpg")本来、背景画像を張りたかったが、そうすると、
+  position absoluteが使えなくなってしまった。*/
+  display: flex;
+
+
+
+}
+.main-title span {
+text-shadow: 3px 3px 3px black;
+color: gold;
+font-family: 'Sawarabi Mincho', sans-serif;
+font-size: 25px;
+position: relative;
+
+}
+.main-title  {
+  text-shadow: 3px 3px 3px black;
+  color: gold;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 45px;
+  text-align: right;
+  position: absolute;
+  left: 720px;
+}
+.main-title p {
+   margin: 0px;
+
+}
+.beer-pic {
+  height: 380px;
+  width: 380px;
+  display: block;
+  position: absolute;
+  left: 100px;
+  margin-top: 20px;
+}
+.vertical {
+  writing-mode: vertical-rl;
+  margin: 280px 0 0 32px;
+  font-size: 10px;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+
+}
+.glaf {
+  width: 250px;
+  height: 250px;
+  position: absolute;/*ポジションabsoluteでtopで動かせない理由がわからない*/
+  left: 680px;
+  margin: 150px;
+}
+.main-contents2 {
+  height: 1000px;
+  background-image: url("red.jpg")
+
+}
+.img-contents {
+  display: flex;
+  justify-content: space-around;
+  /*display:flexで左右均等配置した後でも、marginで動かせる。*/
+}
+.img1,.img2,.img3 {
+  width: 220px;
+  height: 220px;
+  display: block;
+  margin-top: 70px;
+  border: 2px solid gold;
+}
+.img1 {
+  margin-left: 100px;
+}
+.img3 {
+  margin-right: 100px;
+}
+.img-content2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.img4,.img5 {
+  width: 370px;
+  height: 200px;
+  display: block;
+  border: 2px solid gold;
+}
+.img6 {
+  width: 862px;
+  height: 270px;
+  display: block;
+  border: 2px solid gold;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main-contents3 {
+  height: 500px;
+  background-image: url("red.jpg")
+
+}
+.text3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  margin-top: 0px;
+
+}
+.img-content4 {
+ display: flex;
+ justify-content: space-around;
+
+}
+.img7,.img8 {
+  width: 300px;
+  display: block;
+
+}
+.circle1,.circle2  {
+  border: 0px solid black;
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-color: yellow;
+  background: linear-gradient(to left,yellow 20%,white,yellow);
+  position: relative;
+
+}
+.circle1-text1 {
+}
+ /*position absoulteを設定できる条件がわからない*/
+.pic-text {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: white;
+  text-shadow:1px 1px 1px black;
+}
+.text4 {
+margin-right: 30px;
+}
+.text-content {
+  color: gold;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  -webkit-text-stroke: 0.3px black;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 410px;
+  margin-top: 30px;
+
+  /* width: 500px; */
+
+}
+.text-content p {
+  border-top:0.5px solid gold;
+  border-bottom: 0.5px solid gold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* background-color: #CC0000; */
+  background: radial-gradient(#CC0000, #660000);
+}
+
+#home {
+  background-image: url("red.jpg")
+}
+.main-contents4 {
+  height: 450px;
+}
+
+.pic-contentsre {
+  position: relative;
+}
+.two-pic1,.two-pic2 {
+  display: inline-block;
+  text-align: center;
+　　}
+.two-pic1 img,.two-pic2 img {
+  width: 300px;
+}
+.two-pic1 {
+  margin-right: 200px;
+  margin-top: 30px;
+
+}
+.circle1re {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  border: 0px solid black;
+  /* display: block; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-color: yellow;
+  background: linear-gradient(to left,yellow 20%,white,yellow);
+  margin: 0px;
+}
+.circle2re {
+  position: absolute;
+  top: 10px;
+  left: 670px;
+  border: 0px solid black;
+  /* display: block; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-color: yellow;
+  background: linear-gradient(to left,yellow 20%,white,yellow);
+  margin: 0px;
+}
+.pic-contentsre {
+  text-align: center;
+}
+.two-pic1 p,.two-pic2 p {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: white;
+  text-shadow:1px 1px 1px black;
+}
+.text-contents1re {
+  width: 300px;
+  margin:0 auto;
+}
+.tvcmweb {
+  border-top:0.5px solid gold;
+  border-bottom: 0.5px solid gold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* background-color: #CC0000; */
+  background: radial-gradient(#CC0000, #660000);
+  /* text-align: center; */
+  font-size: 20px;
+  color: gold;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  -webkit-text-stroke: 0.3px black;
+
+
+}
+.text-contentre p {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  padding-top: 30px;
+  border-bottom: 3px solid gold;
+  width:400px;
+}
+.main-contents5 {
+  height: 600px;
+}
+.top-text {
+  /* background-color: orange; */
+  font-size: 50px;
+  color: white;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 0px 20px 0px ;
+  padding-top: 20px ;
+}
+.left-contents {
+  /* background-color: pink; */
+  height: 400px;
+  margin-right: 10px;
+  display: flex;
+}
+.img-redbeer {
+  width: 500px;
+  height: 480px;
+
+}
+.right-contents {
+  /* background-color: blue; */
+  height: 400px;
+}
+.ri-ti,.sato {
+width: 200px;
+}
+.rlcontents {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  /* margin: 0 80px 0; */
+  /* justify-content:space-around; */
+}
+.ri-ti-sato {
+  display: flex;
+  justify-content: space-around;
+
+}
+.right-text {
+  color: white;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-shadow: 2px 2px 2px black;
+  line-height: 25px;
+}
+.right-text p {
+  margin-top: 0px;
+}
+.right-bottom p {
+  text-align: center;
+  color: white;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-shadow: 2px 2px 2px black;
+  font-size: 15px;
+}
+.left-contents p {
+  writing-mode: vertical-rl;
+  margin-top: 290px;
+  color: white;
+  border: 1px solid white;
+  height: 190px;
+  /* padding-left: 60px; */
+  }
+.main-contents7 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.box-contents {
+  border: 1px solid gold;
+  width: 800px;
+  margin: auto;
+}
+.box-contents-top {
+  display: flex;
+  height: 260px;
+  width: 800px;
+  margin: auto;
+  padding-top: 30px;
+
+}
+.new-circle {
+  border: 1px solid gold;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 80px;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  background: linear-gradient(0deg,#CC0000,#880000)
+
+}
+.new-circle p {
+margin-top: 0px;
+font-weight: 900;
+font-family: 'Sawarabi Mincho', sans-serif;
+color: #FFFF33;
+opacity: 80%;
+
+}
+.vertical-serif {
+ writing-mode: vertical-rl;
+ border: 1px solid white;
+ width: 25px;
+ height: 120px;
+ line-height: 50%;
+ position: absolute;
+ top: 244px;
+ left: 215px;
+}
+.vertical-serif p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+.kirinred {
+  width: 350px;
+  height:250px;
+}
+.wrap-image-text {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  height: 250px;
+}
+.right-text1,.right-text2 {
+ color: white;
+ font-family:'Sawarabi Mincho', sans-serif;
+ margin: 0;
+}
+.right-text1 {
+  font-size: 25px;
+}
+.right-text2 {
+  font-size: 55px;
+  /* border-bottom: 2px solid gold; */
+  text-decoration: underline;
+  text-decoration-color: gold;
+  line-height: 75px;
+}
+.image-text {
+  margin-left: 30px;
+  height:250px;
+}
+.under-text {
+  color: black;
+  width: 800px;
+  /* border: 1px solid gold; */
+  background: radial-gradient(gold,#FFFF99);
+  margin: 0 auto;
+}
+.under-text p {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family:'Sawarabi Mincho', sans-serif;
+  font-weight: 900px;
+}
+.main-contents8 {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main8-contents {
+  display: flex;
+  align-items: flex-end;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.main8-contents-left {
+  margin-right: 20px;
+}
+.main8-text {
+  color: white;
+  font-size: 25px;
+  font-family: 'Noto Serif JP', serif;
+  text-shadow: 1px 1px 1px black;
+}
+.main8-image {
+  display: flex;
+  text-align: center;
+  line-height: 15px;
+}
+.main8-image1 img {
+  width: 160px;
+}
+.main8-image2 img {
+  width: 150px;
+  height: 210px;
+  vertical-align: top;
+
+}
+.main8-image3 img {
+  width: 160px;
+}
+.main8-image1 {
+  margin-right: 5px;
+  width: 200px;
+  color: white;
+background-color: rgba(0,0,0,0.4);
+}
+.main8-image2 {
+  margin-right: 5px;
+  border: 1px solid darkgoldenrod;
+  width: 200px;
+  color: white;
+  background: radial-gradient(#FFFF00 1%,#800000 100%)
+}
+.main8-image3 {
+  border: 1px solid darkgoldenrod;
+  width: 200px;
+  color: white;
+  background: radial-gradient(#FFFF00 1%,#800000 100%)
+}
+
+.moji1 {
+  font-size: 12px;
+}
+.moji2 {
+  font-size: 8px;
+}
+.moji3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.moji4 {
+  font-size: 6px;
+}
+.main8-contents-right {
+  margin-left: 20px;
+}
+.main8-contents-right img {
+  width: 350px;
+  height: 500px;
+}
+.rikyu-ru {
+  writing-mode: vertical-rl;
+  border: 1px solid white;
+  position: absolute;
+  top: 390px;
+  left: 630px;
+  color: white;
+}
+.rikyu-ru p {
+  font-family: 'Noto Serif JP', serif;
+  margin: 0px;
+}
+.wrapper-main-contents9 {
+  height: 300px;
+  position: relative;
+  background-image: url("red.jpg")
+}
+.wrapper-main-contents9::before {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(0,0,0,0.4);
+}
+.right-contents9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-main-contents9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-contents9 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: pink; */
+  width: 1000px;
+  height: 200px;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Noto Serif JP', serif;
+  z-index: 1;
+}
+.left-contents9 {
+  text-align: center;
+}
+.left-text1 {
+  font-size: 20px;
+}
+.left-text2 {
+  font-size: 15px;
+}
+.left-text3 {
+  font-size: 30px;
+}
+.right-contents9-text {
+  font-size: 17px;
+  text-align: justify;
+  /* text-justify: inter-ideograph; */
+}
+.v-line {
+  margin-left: 10px;
+  width: 2px;
+  height: 150px;
+  background-color: rgba(218,165,32,0.5);
+  margin-right: 50px;
+}
+.wrapper-main-contents10 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  height: 700px;
+  background-image: url("red.jpg")
+
+
+}
+.backimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 800px;
+  z-index: 1;
+}
+.backimage img {
+  width: 800px;
+}
+.contents10-text {
+  position: absolute;
+  /* color: gold; */
+  z-index: 2;
+  left: 50%;
+  font-weight: bold;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #FFD700, #FFFF00, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text10-top {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+.text10-bottom {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 18px;
+  line-height: 35px;
+  text-shadow: 2px 2px 2px black;
+}
+.text10-deep {
+  font-family: 'Noto Serif JP', serif;
+  text-shadow: 2px 2px 2px black;
+}
+.main-contents11 {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+}
+.image-11-1 {
+  border: 2px solid gold;
+  height: 100px;
+}
+.image-11-1 img {
+  width: 100px;
+  height: 100px;
+}
+.image-11-2 {
+  border: 2px solid gold;
+  height: 100px;
+}
+.image-11-2 img {
+  width: 100px;
+  height: 100px;
+}
+.alcohol {
+  display: flex;
+  width: 98px;
+  height: 98px;
+  background-color: #800000;
+  border: 2px solid gold;
+}
+.alchol-text1 {
+  font-size: 70px;
+  margin: auto;
+  /* padding-bottom: 10px; */
+}
+.alchol-text2 {
+  margin-top: 28px;
+}
+.contents11-left {
+  font-family: 'Noto Serif JP', serif;
+  color: gold;
+  text-shadow: 1px 1px 1px black;
+}
+.text11-11 {
+  font-size: 35px;
+  margin-top: 0px;
+}
+.contents11-left-1 {
+  display: flex;
+}
+.contents11-left-2 {
+  display: flex;
+}
+.contents11-left-3 {
+  display: flex;
+}
+/* .kok {
+  background-color: yellow;
+  height: 100px;
+} */
+.text11-1 {
+  margin-left: 20px;
+}
+.text11-1-top{
+  display: table-cell;
+  vertical-align: top;
+  font-size: 30px;
+  line-height: 35px;
+}
+.text-11-1-bottom {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.text11-2 {
+  margin-left: 20px;
+}
+.text-11-2-top {
+  display: table-cell;
+  vertical-align: top;
+  font-size: 30px;
+  line-height: 35px;
+}
+.text-11-2-bottom {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.text-11-2-bottom1 {
+  font-size: 10px;
+  margin-bottom: 30px;
+
+}
+.text11-3 {
+  margin-left: 20px;
+}
+.text11-3-top {
+  display: table-cell;
+  vertical-align: top;
+  font-size: 30px;
+  line-height: 35px;
+}
+.text11-3-bottom-1 {
+  font-size: 15px;
+}
+.contents11-right {
+  margin-left: 70px;
+  margin-top: 50px;
+
+
+}
+.contents11-right {
+}
+.contents11-right img {
+  width: 460px;
+  height: 650px;
+}
+.contents11-right-text {
+  position: absolute;
+  border: 1px solid white;
+  writing-mode: vertical-rl;
+  width: 28px;
+  font-family: 'Noto Serif JP', serif;
+  color: white;
+  line-height: 50%;
+  top: 517px;
+  left: 595px;
+}
+.contents11-right-right {
+  margin-right: 10px;
+}
+.main-contents12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  font-family: 'Amiri', serif;
+  position: relative;
+}
+.main-contents12::before {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(128,0,0,0.7);
+}
+.wrapper-contents12 {
+  display: flex;
+  height: 450px;
+  /* border: 1px solid blue; */
+  border-bottom: 1px solid #DAA520;
+  border-left: 1px solid #DAA520;
+  width: 1050px;
+  z-index: 1;
+  /* margin-left: 70px; */
+}
+.contents12-left {
+  /* margin-left: 100px; */
+  width: 400px;
+  margin-left: 90px;
+}
+.products-left {
+  margin-top: 0px;
+
+}
+.hyou {
+  vertical-align: top;
+  color: #DAA520;
+}
+.hyou1 {
+  vertical-align: top;
+  color: white;
+}
+.products-right {
+  margin-right: 300px;
+}
+.products-right img {
+  width: 450px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.heading12 {
+  color: #DAA520;
+
+  top: 0px;
+  left: 0px;
+}
+.heading12 p {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.heading12 span {
+  font-size: 20px;
+}
+.last-text {
+  border: 1px solid white;
+  writing-mode: vertical-rl;
+  height: 180px;
+  width: 25px;
+  color: white;
+  position: absolute;
+  top: 297px;
+  left: 1074px;
+}
